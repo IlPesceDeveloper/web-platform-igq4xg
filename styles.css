@@ -11,6 +11,12 @@
   width: 100%;
 }
 
+#imgDev{
+  width: 170px;
+  position: absolute;
+  left: 45%;
+}
+
 #btnGoQuiz{
   background-color: #e15b64;
   color: #fff !important;
