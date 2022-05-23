@@ -1,0 +1,139 @@
+.question{
+  background:linear-gradient( #db3d48,#e15b64);
+  color: #e6e6e6;
+  text-align: center;
+  box-shadow: 0 0 10px #e15b64;
+  width: 80%;
+  margin: 50px auto;
+  padding: 100px;
+  text-transform: uppercase;
+}
+
+.question>h1{
+  font-weight: 700;
+}
+
+#overlay{
+  background: #cccccc80;
+  width: 100%;
+  height: 150%;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+}
+#tutondomanda{
+  color: #1a1a1a;
+  background: #e6e6e6;
+  position: absolute;
+  padding: 20px;
+  font-size: 30px;
+  border-radius: 0px 30px 30px 30px;
+  box-shadow: -2px 2px 2px #1a1a1a;
+  left: 55%;
+  top: 140px;
+}
+#tutodomanda{
+  color: #1a1a1a;
+  background: #e6e6e6;
+  position: absolute;
+  padding: 20px;
+  font-size: 30px;
+  border-radius: 30px 0px 30px 30px;
+  box-shadow: 2px 2px 2px #1a1a1a;
+  left: 32%;
+  top: 350px;
+}
+#tutorisposta{
+  color: #1a1a1a;
+  background: #e6e6e6;
+  position: absolute;
+  padding: 20px;
+  font-size: 30px;
+  border-radius: 0px 30px 30px 30px;
+  box-shadow: -2px 2px 2px #1a1a1a;
+  left: 60%;
+  top: 650px;
+}
+#tutoindizio{
+  color: #1a1a1a;
+  background: #e6e6e6;
+  position: absolute;
+  padding: 20px;
+  font-size: 30px;
+  border-radius: 0px 30px 30px 30px;
+  box-shadow: -2px 2px 2px #1a1a1a;
+  left: 17%;
+  top: 800px;
+}
+#btnIcs{
+  width: 30px;
+  position: absolute;
+  right: 3%;
+  top: 100px;
+}
+
+#numeroDomanda{
+  font-weight: 700;
+  margin-top: 100px;
+  text-align: center;
+  color: #e6e6e6;
+  text-transform: uppercase;
+}
+
+.hintBox{
+  background:linear-gradient( #e15b64,#db3d48);
+  color: #1a1a1a;
+  box-shadow: 0 0 10px #e15b64;
+  width: 80%;
+  margin: 50px auto;
+  padding: 1%;
+  text-transform: uppercase;
+}
+
+.hintBox h1{
+  display: inline-block;
+  margin-top:7px;
+  color: #e6e6e6;
+  text-shadow: 0 0 3px #e6e6e6;
+}
+
+#logoHint{
+  width: 50px;
+  padding: 5px;
+  border-radius: 10px;
+  transition: all .4s;
+  margin-top:-15px;
+}
+
+.answer{
+  background:linear-gradient( #e15b64,#db3d48);
+  color: #1a1a1a;
+  text-align: center;
+  box-shadow: 0 0 10px #e15b64;
+  width: 80%;
+  margin: 50px auto;
+  padding: 50px;
+  text-transform: uppercase;
+}
+
+input[type="text"]{
+  background-color: #e6e6e6;
+  border: 0px solid;
+  border-radius: 10px;
+  text-transform: uppercase;
+  padding: 10px;
+  font-size: 24px;
+  box-shadow: 0 0 5px #e6e6e6;
+  color: #1a1a1a;
+  text-align: center;
+}
+input[type="text"]:focus{
+  outline: none;
+}
+
+#labelRisposta{
+  font-size: 30px;
+  color: #e6e6e6;
+  font-weight: 500;
+  text-shadow: 0 0 3px #e6e6e6;
+}

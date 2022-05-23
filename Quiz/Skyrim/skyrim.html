@@ -1,0 +1,78 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <script src="../../script.js"></script>
+    <script src="skyrim.js"></script>
+    <link rel="stylesheet" type="text/css" href="../../styles.css">
+    <link rel="stylesheet" type="text/css" href="skyrim.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@300&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </head>
+  <body id="body">
+  <nav class="navbar navbar-expand-lg bg-light" id="menuNav">
+  <div class="container-fluid">
+    <img src="https://i.ibb.co/vqFqpR5/Bean-Eater-1s-200px-1.gif" alt="" id="logo">
+    <a class="navbar-brand" href="../../index.html" id="#linkMenu">VIMYLI</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#" id="link">Quiz</a>
+
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Notizie</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Trame</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link">  </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  </nav>
+  <div id="overlay">
+    <p id="tutondomanda">DOMANDA CORRENTE</p>
+    <p id="tutodomanda">DOMANDA</p>
+    <p id="tutorisposta">RISPOSTA</p>
+    <p id="tutoindizio">INDIZIO</p>
+    <img src="https://i.ibb.co/7CKsbrf/close.png" alt="" id="btnIcs" onmouseenter="ics(0)" onmouseleave="ics(1)" onclick="removeOverlay()">
+    <h1 id="numeroDomanda"> domanda &nbsp 1</h1>
+      <div class="question">
+        <h1>The Dovahkiin Quiz!!!</h1>
+      </div>
+      <div class="answer">
+        <label for="risposta" id="labelRisposta">RISPOSTA : </label>
+        <br>
+        <input type="text" id="risposta">
+      </div>
+      <div class="hintBox">
+        <img src="https://i.ibb.co/NxWkCW6/light-bulb-1.png" onmouseenter="bulbon()" onmouseleave="bulboff()" alt="" id="logoHint">
+        <h1>4</h1>
+      </div>
+  
+  </div>
+  <div id="home">
+  <h1 id="numeroDomanda"> domanda &nbsp 1</h1>
+    <div class="question">
+      <h1>QUAL E' il nome del nemico principale</h1>
+    </div>
+    <div class="answer">
+      <label for="risposta" id="labelRisposta">RISPOSTA : </label>
+      <br>
+      <input type="text" id="risposta">
+    </div>
+    <div class="hintBox">
+      <img src="https://i.ibb.co/NxWkCW6/light-bulb-1.png" onmouseenter="bulbon()" onmouseleave="bulboff()" alt="" id="logoHint">
+      <h1>4</h1>
+    </div>
+  </div>  
+</body>
+</html>

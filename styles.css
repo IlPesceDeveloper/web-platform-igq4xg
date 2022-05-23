@@ -1,0 +1,167 @@
+#body {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  background:linear-gradient(90deg,#1a1a1a,#000);
+}
+
+#logo {
+  width: 50px;
+}
+
+#home{
+  width: 100%;
+}
+
+#btnGoQuiz{
+  background-color: #e15b64;
+  color: #fff !important;
+  border:none;
+  box-shadow: 0 0 5px #e15b64;
+  padding: 10px;
+  transition: all .3s;
+  font-size: 20px;
+}
+
+#btnGoQuiz:hover{
+  background-color: #e6e6e6;
+  box-shadow: none;
+  color: #e15b64 !important;
+}
+
+#gifHome {
+  width: 250px;
+  margin-top: 120px;
+  position: absolute;
+  top: 65%;
+  left: 20%;
+}
+
+#videogame{
+  background: url(http://i.imgur.com/h9phrgL.gif);
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: 75% 35%;
+  margin-top: 50px;
+  height: 500px;
+  max-width: 80%;
+  border:6px solid #e15b64;
+  border-bottom:6px solid #e15b64;
+  box-shadow: 0 0 20px #e15b64;
+}
+
+#logoHome {
+  width: 500px;
+  margin: -45px auto 0 auto;
+}
+
+#faloGif{
+  width: 130px;
+  margin-top: 300px;
+  margin-left: 100px;
+}
+
+#warriorGif{
+  width: 200px;
+  margin-top: 230px;
+  position: absolute;
+  top: 55%;
+  right: 30%;
+}
+
+#new-quiz-title{
+  color: #e15b64;
+  margin-top:-20px;
+  text-align: center;
+  border-bottom:1px solid #fff;
+  width: 50%;
+  text-shadow: 0 0 10px #e15b64;
+  padding: 30px;
+}
+
+#imgQuiz{
+  width: 150px;
+  margin:20px auto;
+  background:#e15b64;
+  padding:20px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px #e15b64;
+}
+
+#controller{
+  width: 30%;
+  max-width: 25%;
+  margin-top: -10px;
+  margin-left: 10%;
+}
+
+#card{
+  background:#e6e6e6;
+  color: #1a1a1a;
+  font-weight: bolder;
+  box-shadow: 0 0 5px #e6e6e6;
+}
+
+#parole {
+  margin: 15% 0 -150px 25%;
+  background: #e6e6e6;
+  color: #000;
+  font-weight: bold;
+  height: auto;
+  padding: 20px 15px;
+  border-radius: 20px 20px 0px 20px;
+  visibility: collapse;
+  width: 50%;
+}
+
+#parole2 {
+  margin: 10% 0 -100px -40%;
+  background: #e6e6e6;
+  color: #000;
+  font-weight: bold;
+  height: auto;
+  padding: 20px 15px;
+  visibility: collapse;
+  border-radius: 20px 20px 0px 20px;
+  width: 50%;
+}
+
+#menuNav{
+  background: #1a1a1a !important;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+nav a {
+  font-size: 22px !important;
+  position: relative;
+  text-shadow: 0 0 5px #e15b64;
+  line-height: 24px;
+  color: #e15b64 !important;
+  font-weight: bold;
+  margin-top: 4px;
+}
+
+#navBarNav > ul {
+  position: absolute;
+  right: 0;
+}
+
+li > a {
+  margin-right: 10px;
+}
+
+a:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  height: 1px;
+  width: 0;
+  left: 0;
+  background: currentColor;
+  transition: width 0.3s ease;
+}
+
+a:hover:after {
+  width: 100%;
+}
