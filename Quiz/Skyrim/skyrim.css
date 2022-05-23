@@ -1,5 +1,5 @@
-.question{
-  background:linear-gradient( #db3d48,#e15b64);
+.question {
+  background: linear-gradient(#db3d48, #e15b64);
   color: #e6e6e6;
   text-align: center;
   box-shadow: 0 0 10px #e15b64;
@@ -9,11 +9,42 @@
   text-transform: uppercase;
 }
 
-.question>h1{
+#esteticImg {
+  position: absolute;
+  width: 250px;
+}
+
+#esteticImg2 {
+  position: fixed;
+  width: 1000px;
+  left: 50%;
+  bottom: 0;
+  z-index: -2;
+}
+
+#esteticImg3 {
+  position: fixed;
+  width: 1000px;
+  left: 0;
+  bottom: 0;
+  top: -100px;
+  transform: rotate(60deg);
+  z-index: -3;
+}
+
+#esteticImg4 {
+  position: fixed;
+  width: 150%;
+  left: -200px;
+  bottom: -300px;
+  z-index: -1;
+}
+
+.question > h1 {
   font-weight: 700;
 }
 
-#overlay{
+#overlay {
   background: #cccccc80;
   width: 100%;
   height: 150%;
@@ -21,7 +52,7 @@
   top: 0;
   z-index: 1;
 }
-#tutondomanda{
+#tutondomanda {
   color: #1a1a1a;
   background: #e6e6e6;
   position: absolute;
@@ -32,7 +63,7 @@
   left: 55%;
   top: 140px;
 }
-#tutodomanda{
+#tutodomanda {
   color: #1a1a1a;
   background: #e6e6e6;
   position: absolute;
@@ -43,7 +74,7 @@
   left: 32%;
   top: 350px;
 }
-#tutorisposta{
+#tutorisposta {
   color: #1a1a1a;
   background: #e6e6e6;
   position: absolute;
@@ -54,7 +85,7 @@
   left: 60%;
   top: 650px;
 }
-#tutoindizio{
+#tutoindizio {
   color: #1a1a1a;
   background: #e6e6e6;
   position: absolute;
@@ -65,23 +96,26 @@
   left: 17%;
   top: 800px;
 }
-#btnIcs{
+#btnIcs {
   width: 30px;
   position: absolute;
   right: 3%;
   top: 100px;
 }
 
-#numeroDomanda{
+#numeroDomanda {
   font-weight: 700;
-  margin-top: 100px;
   text-align: center;
+  padding: 1%;
   color: #e6e6e6;
   text-transform: uppercase;
+  background: linear-gradient(#e15b64, #db3d48);
+  margin: 100px auto;
+  width: 80%;
 }
 
-.hintBox{
-  background:linear-gradient( #e15b64,#db3d48);
+.hintBox {
+  background: linear-gradient(#e15b64, #db3d48);
   color: #1a1a1a;
   box-shadow: 0 0 10px #e15b64;
   width: 80%;
@@ -90,23 +124,29 @@
   text-transform: uppercase;
 }
 
-.hintBox h1{
+.hintBox h1 {
   display: inline-block;
-  margin-top:7px;
+  margin-top: 7px;
   color: #e6e6e6;
   text-shadow: 0 0 3px #e6e6e6;
 }
 
-#logoHint{
+#logoHint {
   width: 50px;
   padding: 5px;
-  border-radius: 10px;
-  transition: all .4s;
-  margin-top:-15px;
+  transition: all 0.4s;
+  margin-top: -15px;
 }
 
-.answer{
-  background:linear-gradient( #e15b64,#db3d48);
+#logoHinttutor {
+  width: 50px;
+  padding: 5px;
+  transition: all 0.4s;
+  margin-top: -15px;
+}
+
+.answer {
+  background: linear-gradient(#e15b64, #db3d48);
   color: #1a1a1a;
   text-align: center;
   box-shadow: 0 0 10px #e15b64;
@@ -116,7 +156,7 @@
   text-transform: uppercase;
 }
 
-input[type="text"]{
+input[type='text'] {
   background-color: #e6e6e6;
   border: 0px solid;
   border-radius: 10px;
@@ -127,11 +167,11 @@ input[type="text"]{
   color: #1a1a1a;
   text-align: center;
 }
-input[type="text"]:focus{
+input[type='text']:focus {
   outline: none;
 }
 
-#labelRisposta{
+#labelRisposta {
   font-size: 30px;
   color: #e6e6e6;
   font-weight: 500;
