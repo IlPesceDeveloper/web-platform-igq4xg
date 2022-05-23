@@ -9,6 +9,14 @@
   text-transform: uppercase;
 }
 
+#inviaRisposta{
+  background: #e6e6e6;
+  border-radius: 10px;
+  box-shadow: 0 0 5px #e6e6e6;
+  font-size: 24px;
+
+}
+
 #esteticImg {
   position: absolute;
   width: 250px;
