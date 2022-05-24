@@ -1,4 +1,4 @@
-.question {
+.question ,.questiontuto{
   background: linear-gradient(#db3d48, #e15b64);
   color: #e6e6e6;
   text-align: center;
@@ -20,18 +20,25 @@
   color: #e15b64;
   font-weight: 700;
   width: 20%;
+  transition: all .4s;
+}
+#inviaRisposta:hover{
+  background: 0 0;
+  box-shadow: none;
+  color: #e6e6e6;
 }
 
 #esteticImg {
   position: absolute;
   width: 250px;
+  image-rendering:optimizeQuality;
 }
 
 #esteticImg2 {
   position: fixed;
   width: 1000px;
   left: 50%;
-  bottom: 0;
+  bottom: -20%;
   z-index: -2;
 }
 

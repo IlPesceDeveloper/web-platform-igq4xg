@@ -46,3 +46,14 @@ function removeOverlay() {
   document.cookie = "overlay=no";
   document.getElementById('overlay').style.visibility = 'collapse';
 }
+
+function inviaRisp(){
+  let risposta=document.getElementById("risposta").value.toLowerCase().replace(/ /g, "");
+  let ndomanda=parseInt(document.getElementById("ndomanda").innerHTML);
+  switch(ndomanda){
+    case 1:
+      if(risposta=="alduin"){
+        document.getElementById("domandah1").innerHTML="ESATTO!";
+      }
+  }
+}

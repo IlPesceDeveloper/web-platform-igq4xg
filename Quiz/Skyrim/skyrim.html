@@ -46,13 +46,13 @@
     <p id="tutoindizio">INDIZIO</p>
     <img src="https://i.ibb.co/7CKsbrf/close.png" alt="" id="btnIcs" onmouseenter="ics(0)" onmouseleave="ics(1)" onclick="removeOverlay()">
     <h1 id="numeroDomanda"> domanda &nbsp 1</h1>
-      <div class="question">
+      <div class="questiontuto">
         <h1>The Dovahkiin Quiz!!!</h1>
       </div>
       <div class="answer">
-        <label for="risposta" id="labelRisposta">RISPOSTA : </label>
+        <label for="rispostatuto" id="labelRisposta">RISPOSTA : </label>
         <br>
-        <input type="text" id="risposta">
+        <input type="text" id="rispostatuto">
       </div>
       <div class="hintBox">
         <img src="https://i.ibb.co/xDFpK98/light-bulb-1.png" alt="" id="logoHinttutor">
@@ -65,16 +65,16 @@
   <img src="https://i.ibb.co/t2csWPz/5904f371bbee4f0964d87902.png" alt="" id="esteticImg2">
   <img src="https://www.pngplay.com/wp-content/uploads/7/Mist-Gray-Background-PNG-Image.png" alt="" id="esteticImg4">
   <div id="home">
-  <h1 id="numeroDomanda"> domanda &nbsp 1</h1>
+  <h1 id="numeroDomanda"> domanda &nbsp <span id="ndomanda">1</span></h1>
     <div class="question">
-      <h1>QUAL E' il nome del nemico principale</h1>
+      <h1 id="domandah1">QUAL E' il nome del nemico principale</h1>
     </div>
     <div class="answer">
-      <label for="risposta" id="labelRisposta">RISPOSTA : </label>
+      <label for="risposta" id="labelRisposta">RISPOSTA</label>
       <br>
       <input type="text" id="risposta">
       <br>
-      <button id="InviaRisposta">INVIA</button>
+      <button id="InviaRisposta" onclick="inviaRisp()">INVIA</button>
     </div>
     <div class="hintBox">
       <img src="https://i.ibb.co/xDFpK98/light-bulb-1.png" onmouseenter="bulbon()" onmouseleave="bulboff()" alt="" id="logoHint">
