@@ -53,7 +53,9 @@ function inviaRisp(){
   switch(ndomanda){
     case 1:
       if(risposta=="alduin"){
-        document.getElementById("domandah1").innerHTML="ESATTO!";
+        ndomanda++;
+        document.getElementById("ndomanda").innerHTML=ndomanda;
+        document.getElementById("domandah1").innerHTML="in quale luogo vivono i barbagrigia";
       }
   }
 }
